@@ -113,3 +113,10 @@ Failed/ records
 
 <img src="Images/Screenshot%202025-03-26%20200206.png" width="700"/>
 
+## Final Summary
+
+This portfolio showcases an end-to-end cloud-based data pipeline using AWS services. Starting from descriptive analysis and data wrangling, to quality control and optimized output storage, the project demonstrates core skills in data engineering and cloud ETL workflows using AWS Glue, S3, and Data Catalog. It aligns with real-world data processing standards and highlights automation, efficiency, and quality assurance in data handling.
+
+## 🎓 Course Completion
+
+![AWS Academy Badge] (https://www.credly.com/go/VsC1YmgH))
