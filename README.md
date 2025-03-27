@@ -1,6 +1,6 @@
 # project
 Overview of the three past projects.
-# [Project Title: Descriptive Analysis of Sample Student Academic Records]
+# [Project 1: Descriptive Analysis of Sample Student Academic Records]
 Objective
 The main objective of the project is to conduct a descriptive analysis on simulated data in order to identify potential patterns of student attendance and performance. The data were generated with the aid of ChatGPT, and according to University Canada West (UCW)'s Attendance Policy under the Academic Procedures. The project aims to create an end-to-end data pipeline to prepare, summarize, and store the insights on AWS cloud tools.
 Dataset
@@ -55,3 +55,18 @@ Screenshots
 <img src="Images/Screenshot%202025-03-26%20193547.png" width="700"/>
 <img src="Images/Screenshot%202025-03-26%20193553.png" width="700"/>
 <img src="Images/Screenshot%202025-03-26%20193601.png" width="700"/>
+# [Project 1: Descriptive Analysis of Sample Student Academic Records]
+Control of Data Quality
+To achieve reliability and integrity of attendance records processed, quality check mechanism was included in the Glue ETL pipeline. This pipeline separates clean records with faulty ones and outputs them to separate folders in Amazon S3.
+The Glue job had included conditional concatenation and branching configuration to allow sending:
+- Passed records to the `Passed/` folder
+- Failed/missing fields to the `Failed/` folder
+Visual ETL Job for Quality Check
+<img src="Images/Screenshot%202025-03-26%20200112.png" width="700"/>
+Output Files in Amazon S3
+Passed/ records
+<img src="Images/Screenshot%202025-03-26%20200159.png" width="700"/>
+
+❌ Failed/ records
+
+<img src="Images/Screenshot%202025-03-26%20200206.png" width="700"/>
