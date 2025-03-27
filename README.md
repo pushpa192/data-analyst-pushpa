@@ -1,6 +1,6 @@
 # project
 Overview of the three past projects.
-# [Project Title: Descriptive Analysis of Student Academic Records Week 4](![Architecture Diagram](week4-descriptive-analysis/drawio-architecture-week4.png)
+# [Project Title: Descriptive Analysis of Sample Student Academic Records]
 Objective
 The main objective of the project is to conduct a descriptive analysis on simulated data in order to identify potential patterns of student attendance and performance. The data were generated with the aid of ChatGPT, and according to University Canada West (UCW)'s Attendance Policy under the Academic Procedures. The project aims to create an end-to-end data pipeline to prepare, summarize, and store the insights on AWS cloud tools.
 Dataset
