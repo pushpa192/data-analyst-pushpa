@@ -25,6 +25,7 @@ Methodology
 <img src="Images/Screenshot%202025-03-26%20193450.png" width="700"/>
 <img src="Images/Screenshot%202025-03-26%20193456.png" width="700"/>
 2. ETL Process with AWS Glue
+  
 - Development of different visual ETL jobs using AWS Glue Studio, including:
   - Students-list-Summarization
   - Classes-list-Summarization
@@ -35,6 +36,7 @@ Methodology
 <img src="Images/Screenshot%202025-03-26%20193519.png" width="700"/>
 <img src="Images/Screenshot%202025-03-26%20193525.png" width="700"/>
 3. Outputs and Storage
+  
 - The final output was stored in Parquet format in S3.
 - Summary tables were created grouped by:
   - Average age
@@ -58,6 +60,7 @@ Deliverables
 - Output files stored in S3 and viewable via Glue Catalog
 
 Architecture Overview
+
 <img src="Images/drawio-architecture-week4.png" width="700"/>
 <img src="Images/glue-data-catalog-week4.png.png" width="700"/>
 <img src="Images/Screenshot%202025-03-26%20193547.png" width="700"/>
@@ -72,10 +75,14 @@ The Glue job had included conditional concatenation and branching configuration 
 - Failed/missing fields to the Failed/ folder
 
 Visual ETL Job for Quality Check
+
 <img src="Images/Screenshot%202025-03-26%20200112.png" width="700"/>
 
 Output Files in Amazon S3
+
 Passed/ records
+
 <img src="Images/Screenshot%202025-03-26%20200159.png" width="700"/>
 Failed/ records
+
 <img src="Images/Screenshot%202025-03-26%20200206.png" width="700"/>
