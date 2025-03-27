@@ -55,6 +55,7 @@ Screenshots
 <img src="Images/Screenshot%202025-03-26%20193547.png" width="700"/>
 <img src="Images/Screenshot%202025-03-26%20193553.png" width="700"/>
 <img src="Images/Screenshot%202025-03-26%20193601.png" width="700"/>
+
 # [Project 2:  Data Quality Control Sample Student Academic Records]
 To achieve reliability and integrity of attendance records processed, quality check mechanism was included in the Glue ETL pipeline. This pipeline separates clean records with faulty ones and outputs them to separate folders in Amazon S3.
 The Glue job had included conditional concatenation and branching configuration to allow sending:
