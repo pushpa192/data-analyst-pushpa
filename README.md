@@ -38,4 +38,16 @@ Deliverables
 - Glue ETL workflows performing transformation and aggregation
 - Draw.io architecture diagram showing full data flow
 - Output files stored in S3 and viewable via Glue Catalog
-![Architecture Diagram](![Image Description](Images/)
+<img src="Images/Screenshot%202025-03-26%20193338.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20193437.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20193450.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20193556.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20193504.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20193611.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20193519.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20193625.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20193533.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20193539.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20193447.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20193553.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20193601.png" width="700"/>
