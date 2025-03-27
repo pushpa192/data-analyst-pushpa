@@ -76,7 +76,7 @@ The Glue job had included conditional concatenation and branching configuration 
 
 Visual ETL Job for Quality Check
 
-<img src="Images/Screenshot%202025-03-26%200212.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20200212.png" width="700"/>
 
 Output Files in Amazon S3
 
