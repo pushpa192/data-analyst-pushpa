@@ -86,3 +86,27 @@ Passed/ records
 Failed/ records
 
 <img src="Images/Screenshot%202025-03-26%20200206.png" width="700"/>
+
+# [Project 3: Data Wrangling for Sample Student Academic Records] 
+
+The fifth week of data wrangling had many datasets cleaned, transformed, and merged into a consolidated analytics-ready dataset. The practice was performed using an AWS Glue Studio in a visual ETL job format.
+
+Key Steps:
+- Extracted student and class data from Glue Data Catalog.
+- Transformed data:
+  - Perform joining between students and classes.
+  - Convert dynamic frames to standard format.
+  - Clean inconsistent column names and data types.
+- Loaded output into two S3 target folders:
+  - System: cleaned join data in Parquet format.
+  - User: additional user-level breakdown for downstream analysis.
+
+Visual References:
+
+<img src="Images/Screenshot%202025-03-26%20202844.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20202854.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20202901.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20202909.png" width="700"/>
+<img src="Images/Screenshot%202025-03-26%20202916.png" width="700"/>
+
+These actions process well finally put the finished dataset into a thoroughly organized, deduplicated format with efficient storage (Parquet) for very fast querying and easy analysis.
